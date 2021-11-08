@@ -1,0 +1,124 @@
+#titulo {
+    color: rgb(73, 98, 167);
+    font-size: 48px;
+}
+
+button[id="registrar_btn"] {
+    background-color: rgb(73, 98, 167);
+    border: none;
+    color: white;
+    width: 90%;
+    padding: 12px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    top: 80%;
+
+}
+
+input[id="nom"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[id="cod"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[id="cur"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.user-card {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background-color: rgb(120, 152, 167);
+    position: relative;
+}
+
+.user-card-content {
+    color: white;
+}
+
+.user-card-delete {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.numero{
+    position: absolute;
+    top: 50px;
+    right: 6px;
+}
+
+.user-card-plus {
+    position: absolute;
+    top: 100px;
+    right: 6px;
+}
+
+.user-card-minus {
+    position: absolute;
+    top: 100px;
+    right: 36px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+}
+
+.div1 {
+    grid-area: 1 / 2 / 6 / 7;
+    background: #7ab4c5;
+
+}
+
+.div2 {
+    grid-area: 1 / 3 / 3 / 5;
+    background: #b9ccce;
+
+}
+
+.div3 {
+    grid-area: 1 / 5 / 3 / 6;
+    background: #b9ccce;
+
+}
+
+.div4 {
+    grid-area: 3 / 3 / 6 / 4;
+    background: #cecece;
+
+
+}
+
+.div5 {
+    grid-area: 3 / 4 / 6 / 5;
+    background: #b2e7ff;
+
+}
+
+.div6 {
+    grid-area: 3 / 5 / 6 / 6;
+    background: #c2fff0;
+
+}
+
+#h2{
+    color: rgb(73, 98, 167); 
+}
